@@ -5,14 +5,16 @@ TTGO-Display là một board mạch điều khiển nhỏ, có thể được l�
 
 ## Về sản phẩm này
 Mình mua board này gần nửa năm nhưng gần đây mới có đủ hứng thú để nghịch nó vì công việc chính cũng khá bận. Trước đây, mình cũng từng có thời gian trải nghiệm trên Wemos D1 Mini hay Esp32-CAM về kết nối Wifi hay lưu trữ trên SPIFFS rồi nên thử board này không quá khó. Ứng dụng khiến mình muốn thử đầu tiên là "TTGO T-Display ( ESP32 ) - Internet Weather Station and Clock (tutorial)" của kênh Youtube Volos Projects. Nếu các bạn xem clip bên dưới thì chắc cũng sẽ bị ấn tượng như mình vì thiết kế giao diện cùng animation quá đẹp trên một cái board nhỏ ngang ngửa Arduino Nano. Ngoài ra mình thử cũng vì dự án này opensource. Sản phẩm mình giới thiệu trong bài này dựa hoàn toàn trên code mẫu của clip dưới. Hiện tại mình đã có thể tự thiết kế animation riêng, biết cách hiển thị trên màn hình TFT của TTGO-display nhưng mình quá ưng giao diện nên cũng chẳng muốn làm lại. Thay vào đó, mình muốn mở rộng một số chức năng mà code chính chưa có. Mình sẽ liệt kê ngay bên dưới:
-Chức năng của code mẫu:
+
+### Chức năng của code mẫu:
 1. Lấy thông tin thời tiết từ API của OpenWeather (nhiệt độ, độ ẩm) thông qua kết nối Wifi.
 2. Lấy thông tin thời gian thực từ NTP server thông qua kết nối Wifi.
 3. Animation trên màn hình khi kết nối Wifi thành công.
 4. Hiển thị các thông tin thời gian, thời tiết ra màn hình
 5. Tăng / Giảm độ sáng của màn hình bằng nút nhấn tích hợp
 6. Invert màu màn hình bằng nút nhấn tích hợp
-Ngoài những chức năng trên, mình bổ sung thêm:
+
+### Ngoài những chức năng trên, mình bổ sung thêm:
 7. Chuyển màn hình mới bằng nút nhấn tích hợp (bỏ tính năng số 6)
 8. Đo dung lượng pin hiện tại (được gắn qua jack JST tích hợp của TTGO) và hiển thị ra màn hình (bỏ phần hiển thị SEC - hiển thị giây mặc định)
 9. Bộ lọc Kalman để ổn định kết quả đo dung lượng pin.

@@ -26,4 +26,4 @@ Mình mua board này gần nửa năm nhưng gần đây mới có đủ hứng 
 
 Đừng quên subscribe website và kênh youtube của MakeXYZFun để cập nhật các dự án mới nhất nhé!
 * Website: https://makexyz.fun
-*Youtube Channel: https://www.youtube.com/channel/UC4v28AauStqzl2rwNGl9QcA
+* Youtube Channel: https://www.youtube.com/channel/UC4v28AauStqzl2rwNGl9QcA

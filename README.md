@@ -1,4 +1,4 @@
-# -TTGO-Display-Weather-Station-Clock-With-BatteryIndicator-OTA-Server
+# TTGO-Display-Weather-Station-Clock-With-BatteryIndicator-OTA-Server
 
 ## Về TTGO-Display
 TTGO-Display là một board mạch điều khiển nhỏ, có thể được lập trình bằng Arduino IDE. Nó có sẵn khả năng kết nối Wifi, Bluetooth vì sử dụng chip Esp32. Ngoài ra, board mạch này được gắn sẵn một màn hình LCD màu (TFT) có độ phân giải 240x135 đủ để hiển thị khá nhiều thông tin, sáng, đẹp, kể cả trong điều kiện ngoài trời. Nó được thiết kế cho những ứng dụng thông minh cỡ siêu nhỏ và sử dụng nguồn pin nên đã trang bị luôn một jack nguồn JST 1.25mm để gắn pin Lithium. Mình ấn tượng với board này vì nó rất nhỏ, bằng 2 ngón tay thôi nhưng được tích hợp gần như tất cả những thứ mình cần cho các ứng dụng điều khiển từ xa qua Wifi, Bluetooth hay ứng dụng IoT. Và, quan trọng nhất vẫn là, nó rất rẻ. Tại thời điểm mình mua chỉ đâu đó loanh quanh chưa đến 200 ngàn đồng. (Uh, giá thay đổi nhiều rồi nha, chắc do Covid ^^!)

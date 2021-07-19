@@ -25,5 +25,5 @@ Mình mua board này gần nửa năm nhưng gần đây mới có đủ hứng 
 14. [Dự kiến] Hiển thị trạng thái các thiết bị được TTGO điều khiển và tương tác trực tiếp với các thiết bị này qua Internet (WebSocket).
 
 Đừng quên subscribe website và kênh youtube của MakeXYZFun để cập nhật các dự án mới nhất nhé!
-Website: https://makexyz.fun
-Youtube Channel: https://www.youtube.com/channel/UC4v28AauStqzl2rwNGl9QcA
+* Website: https://makexyz.fun
+*Youtube Channel: https://www.youtube.com/channel/UC4v28AauStqzl2rwNGl9QcA
